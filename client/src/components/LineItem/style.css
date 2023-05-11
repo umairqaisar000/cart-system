@@ -1,0 +1,7 @@
+.circle {
+    display: flex;
+    width: 5px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: red;
+  }
