@@ -1,5 +1,4 @@
 import { BLUE, LIGHT_GREY, BLACK } from "../../constants";
-import { ESTIMATED_DELIVERY } from "../../constants/data";
 import "./style.css";
 
 const LineItem = ({ item, removeLineItem }) => {
@@ -16,7 +15,7 @@ const LineItem = ({ item, removeLineItem }) => {
           <div className="row mt-2">
             <div
               className="circle col-6"
-              style={{ backgroundColor: item.swatchColor }}
+              style={{ backgroundColor: item.swatchColor, width: "10px" }}
             />
             <div
               className="col-6"
